@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dojo Survey</title>
+        <meta charset="utf-8"> <!--Universal Text Format - Allows for different language character sets to appear-->
+        <meta name="description" content="Template">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="jscript.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">        
+    </head>
+    
+    <body>
+        <div id="wrapper">
+                <h1>Counter</h1>
+                <p>Number of Views: {{counter}}</p>
+                <form action='/plus2'>
+                    <input type='submit' value='addTwo' name='submit'/>
+                </form>
+                <form action='/reset'>
+                    <input type='submit' value='reset' name='reset'/>
+                </form>
+            
+            <div id="main_content">
+
+
+            </div>
+        </div>
+    </body>
+</html>
